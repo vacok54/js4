@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a = ['lorem', 123, true, 323323, 'ipsum']
+        console.log(a.length)
+
+        console.log(a[0])
+        console.log(a[a.length-1])
+
+        let b = []
+        b.push(12, 2323, 'lorem', 'ipsum')
+        
+        b.unshift('first')
+
+        delete b[0]
+        b.pop()
+        b.pop()
+       
+        console.log(b)
+
+        let number = [1, 3, 5, 7, 9]
+        for(let i = 0; i < number.length; i++){
+        console.log(number[i] + 1)}
+    </script>
+
+Дз:
+1) Дан массив let a = ['lorem', 123, true, 'ipsum'];
+
+  Вывести длинну массива.
+
+ 2) Для того же массива выведите первый элемент и последний элемент (с учетом того, что количество элементов может меняться, а ваш код должен всегда работать)
+ 3) Дан пусто массив let em = []; Заполните его 5-ю различными элементами. Используйте методы для работы с массивами
+
+ 4) Добавьте в начало предыдущего массива 3 новых элемента 
+
+5) Удалите один элемент с начала массива и два элемента с конца
+6) Дан массив с нечетными числами let number = [1, 3, 5, 7, 9]. Выведите консоль все элементы сделав их четными
+</body>
+</html>
